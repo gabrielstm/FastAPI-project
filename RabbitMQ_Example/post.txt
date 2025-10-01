@@ -1,0 +1,2 @@
+curl -X POST http://localhost:8000/notify/123 -H "Content-Type: application/json" -d '{"msg": "Olá, usuário 123!"}'
+curl -X POST http://localhost:8000/notify/456 -H "Content-Type: application/json" -d '{"msg": "Você tem uma nova mensagem, usuário 456!"}'
